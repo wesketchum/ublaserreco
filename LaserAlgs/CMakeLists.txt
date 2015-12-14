@@ -1,7 +1,7 @@
 # basic source code CMakeLists.txt
 
-art_make_library( LIBRARY_NAME  ub_UserAnalysis
-	SOURCE UserAnalysis.cxx
+art_make_library( LIBRARY_NAME  ub_LaserAlgs
+	SOURCE LaserAlgs.cxx
 	LIBRARIES
                  ${ROOT_BASIC_LIB_LIST}
 

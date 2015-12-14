@@ -1,5 +1,5 @@
 /**
- * \file UserAnalysis.h
+ * \file LaserAlgs.h
  *
  * 
  * \brief Little sample program for establishing a user analysis space.
@@ -14,19 +14,19 @@
 
 #include "TTree.h"
 
-namespace test{
-  class UserAnalysis;
+namespace laser{
+  class LaserAlgs;
 }
 
-class test::UserAnalysis{
+class laser::LaserAlgs{
   
 public:
   
   /// Default constructor
-  UserAnalysis();
+  LaserAlgs();
 
   /// Default destructor
-  virtual ~UserAnalysis(){};
+  virtual ~LaserAlgs(){};
 
   void RunAnalysis();
   void SetupOutputTree(TTree*);

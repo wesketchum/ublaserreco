@@ -2,7 +2,7 @@
 
 art_make(
 	  MODULE_LIBRARIES
-			ub_UserAnalysis
+			ub_LaserAlgs
 #			Geometry
 #	  	        Geometry_service
 #		        Utilities
