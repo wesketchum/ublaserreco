@@ -1,8 +1,15 @@
-# ubuseranalysis
-Skeleton analysis class for starting a LArSoft analyzer
+# ublaserreco
+Reconstruction package for MicroBooNE's laser calibrations.
 
-UserAnalysis: a simple analysis class that you can write your own piece of code in
-UserAnalyzer: a simple LArSoft Analyzer that calls the UserAnalysis object above
-tools/rename.py: a script to rename your area so that you can set up your own development
+To setup/build, do the following:
 
-Do "python tools/rename.py -h" for help
+<source your products area setup script, and setup the normal mrb stuff>
+setup uboonecode v04\_30\_03 -qe9:prof
+mkdir <development\_area>; cd <development\_area>
+mrb newDev
+source localProducts\_uboonecode\_v04\_30\_03\_e9\_prof/setup
+cd srcs
+mrb g https://github.com/wesketchum/ublaserreco.git
+mrb uc
+cd $MRB_BUILDDIR
+mrb z; mrbsetenv; mrb i -j8
