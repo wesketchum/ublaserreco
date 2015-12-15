@@ -42,9 +42,9 @@ namespace laser {
   }; // class LaserData()
   
 #ifndef __GCCXML__
-  inline uint32_t mix::LaserData::Event()  const { return fEvent;  }
-  inline uint32_t mix::LaserData::SubRun() const { return fSubrun; }
-  inline uint32_t mix::LaserData::Run()    const { return fRun;    }
+  inline uint32_t laser::LaserData::Event()  const { return fEvent;  }
+  inline uint32_t laser::LaserData::SubRun() const { return fSubrun; }
+  inline uint32_t laser::LaserData::Run()    const { return fRun;    }
 #endif // !__GCCXML__
   
 } // namespace laser

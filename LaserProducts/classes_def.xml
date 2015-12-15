@@ -8,6 +8,7 @@
 <lcgdict>
 
   <class name="laser::LaserData" ClassVersion="10">
+   <version ClassVersion="10" checksum="321729940"/>
   </class>
   
  <class name="std::vector<laser::LaserData>"/>
