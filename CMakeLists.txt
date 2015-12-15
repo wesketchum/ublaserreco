@@ -51,7 +51,8 @@ include(ArtMake)
 include(BuildPlugins)
 
 # ADD SOURCE CODE SUBDIRECTORIES HERE
-add_subdirectory(LaserAlgs)
+add_subdirectory(LaserProducts)
+ add_subdirectory(LaserAlgs)
 add_subdirectory(LaserModules)
 
 # tests
